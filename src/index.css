@@ -1,0 +1,204 @@
+
+.wrap {
+    width: 95%;
+    padding: 20px 40px;
+    font-family: 'Jost', sans-serif;
+}
+
+h4, p {
+    margin: 0;
+}
+
+.select-city {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: none;
+    border-radius: 5px;
+    opacity: 1;
+    width: 250px;
+    height: 40px;
+    padding: 5px;
+    outline: none;
+    margin-right: 20px;
+}
+
+.button {
+    background: #459DE9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+    padding: 10px 43px;
+    border: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    height: 40px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #71afe4;
+}
+
+.select-city__form {
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 350px;
+    background: #FFF1FE 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+}
+
+.card-head, .card-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info-temperature__main,
+.card-container {
+    display: flex;
+}
+
+.card-container {
+    flex-wrap: wrap;
+}
+
+.card-head__location p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.card-head__location .title {
+    margin: 0 0 4px;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+.card-head__location {
+    width: 95%;
+}
+
+.card-head {
+    width: 100%;
+}
+
+.card-info-temperature__main span {
+    font-size: 44px;
+}
+
+.card-info-temperature__main .card-info__switch {
+    margin-left: 5px;
+}
+
+.card-info-temperature__main .card-info__switch span {
+    font-size: 22px;
+}
+
+.card-info__secondary {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-info-secondary__item span {
+    color: #459DE9;
+}
+
+.card-head__close {
+    margin-top: -10px;
+    margin-right: -10px;
+    color: #C5C5C5;
+    cursor: pointer;
+}
+
+.card-info__switch span {
+    margin-left: 10px;
+    color: #8D8D8D;
+    cursor: pointer;
+}
+
+.card-info__switch span:first-child {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.card-info__switch span.active {
+    color: #000;
+}
+
+.card-info__switch span:first-child:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 23px;
+    background-color: #707070;
+    left: 53%;
+    top: 4px;
+}
+
+.card-info__switch {
+    position: relative;
+}
+
+.select-city__form .button {
+    margin-left: 20px;
+}
+
+.card-head__title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.card-head__cloudy {
+    display: flex;
+    align-items: center;
+    letter-spacing: 0px;
+    color: #C5C5C5;
+    font-size: 13px;
+}
+
+.card-head__cloudy p {
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.card-head__location .card-head-location__info {
+    margin-top: -12px;
+}
+
+.card-info-temperature__feels {
+    color: #C5C5C5;
+    font-size: 13px;
+}
+
+.loader-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.loader-container img {
+    width: 100px;
+}
